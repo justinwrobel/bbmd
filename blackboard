@@ -1,0 +1,29 @@
+#!/bin/bash
+# chkconfig: 345 99 10
+# description: Blackboard auto start-stop script.
+#
+#       /etc/rc.d/init.d/blackboard
+#
+# This shell script takes care of starting and stopping Blackboard
+#
+#
+BLACKBOARD_DIR=/usr/local/blackboard
+case "$1" in
+    start)
+        $BLACKBOARD_DIR/tools/admin/ServiceController.sh services.start
+        ;;
+    stop)
+        $BLACKBOARD_DIR/tools/admin/ServiceController.sh services.stop
+        ;;
+    status)
+        $BLACKBOARD_DIR/tools/admin/ServiceController.sh services.status
+        ;;
+    restart)
+        $BLACKBOARD_DIR/tools/admin/ServiceController.sh services.restart
+        ;;
+    *)
+        echo "Usage:  {start|stop|status|restart}"
+        exit 1
+        ;;
+esac
+exit $?
