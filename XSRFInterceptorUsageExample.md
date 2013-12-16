@@ -1,7 +1,8 @@
 # Blackboard's XSRFInterceptor Usage example 
 
 Blackboard's XSRFInterceptor attempts to protect against cross site request forgery (XSRF). 
-This is done by using a nonce. The following is a usage example:
+This is done by using a nonce. This example assumes a working knowledge of spring and maven. 
+This example includes four files:
 
 1. pom.xml
 1. mvc-config.xml
