@@ -54,7 +54,7 @@ public class UserController {
 
 <s:url var="postUrl" value="/controller/${userId}" />
 <!-- 
-	nonceId is the value of the method's RequestMapping annotation. 
+	nonceId, bbNG:form's attribute, must be the value of the method's RequestMapping annotation. 
 	e.g., {userId} from @RequestMapping(value = "{userId}", method = RequestMethod.GET)
 	
 	Otherwise, it will fail the nonce check in XSRFInterceptor
