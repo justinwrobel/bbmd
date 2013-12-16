@@ -9,16 +9,19 @@ This is done by using a nonce. The following is a usage example:
 1. user.jsp
 
 #pom.xml
+```
 <dependency>
 	<groupId>blackboard.platform</groupId>
 	<artifactId>bb-spring-webapi</artifactId>
 	<version>9.1.110082.0</version>
 </dependency>
-
+```
 #mvc-config.xml
+```
 <mvc:interceptors>
 	<bean class="blackboard.platform.spring.web.interceptors.XSRFInterceptor" />
 </mvc:interceptors>
+```
 
 #UserController.java
 ```
