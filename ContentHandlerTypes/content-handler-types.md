@@ -1,5 +1,7 @@
 #Content Handler Types
 
+Below are images of the different content types with the content type !Custom content Handler!
+
 ##newPage
 ![](newPage.png?raw=true)
 ##build
