@@ -20,5 +20,5 @@
 		sudo /usr/local/blackboard/tools/admin/ServiceController.sh services.start
 
 Pat yourself on the back! You've should have a fully functioning Blackboard Instance! 
-But if you want to make this VM even easier to use there are some tweaks available in [DeveloperVmTweaks](DeveloperVmTweaks.html)
+But if you want to make this VM even easier to use there are some tweaks available in [DeveloperVmTweaks](DeveloperVmTweaks.md)
 
