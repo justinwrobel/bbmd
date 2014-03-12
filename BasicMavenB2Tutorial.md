@@ -26,7 +26,7 @@ mavenized B2 will have the following files:
 [justplainwiley]: http://eclipse.justplainwiley.com/pluginhelp/reference/bb-manifest-ref.html
 
 ##Tutorial
-For those already familiar with B2 development [here is a zip archive of the completed project](BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy) section.
+For those already familiar with B2 development [here is a zip archive of the completed project](https://github.com/justinwrobel/bbmd/raw/master/BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy) section.
 
 ###Create new Maven Project in Eclipse 
 
