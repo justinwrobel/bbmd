@@ -1,7 +1,7 @@
 #Basic Maven B2 Tutorial 
 ##Prerequisites
 * A running Blackboard Developer VM on [http://localhost:9876](http://localhost:9876). This was covered in the 
-[DeveloperSetupTutorial](DeveloperSetupTutorial.html)
+[BBDeveloperVMSetupTutorial](BBDeveloperVMSetupTutorial.md)
 
 ##Introduction
 This tutorial shows how to create and deploy a basic B2 to Blackboard. The most basic 
@@ -26,7 +26,7 @@ mavenized B2 will have the following files:
 [justplainwiley]: http://eclipse.justplainwiley.com/pluginhelp/reference/bb-manifest-ref.html
 
 ##Tutorial
-For those already familiar with B2 development [here is a zip archive of the completed project](BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy!) section.
+For those already familiar with B2 development [here is a zip archive of the completed project](BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy) section.
 
 ###Create new Maven Project in Eclipse 
 
@@ -39,6 +39,7 @@ For those already familiar with B2 development [here is a zip archive of the com
 	* Version: 0.0.1-SNAPSHOT
 	* Packaging: war
 	* Name: Hello World B2
+
 ![4-eclipse-new-maven-project.png](BasicMavenB2Tutorial/4-eclipse-new-maven-project.png)
 
 Maven should have created the following file structure and files:
