@@ -6,6 +6,7 @@ known features of B2s is to create tables in the blackboard database on installa
 * A running Blackboard Developer VM on [http://localhost:9876](http://localhost:9876). This was covered in the 
 [BBDeveloperVMSetupTutorial](BBDeveloperVMSetupTutorial.md)
 
+## Tutorial
 We will be building on my previous tutorial [BasicMavenB2Tutorial](BasicMavenB2Tutorial).
 
 1. Download [hello-maven-b2.git](https://github.com/justinwrobel/hello-maven-b2)
