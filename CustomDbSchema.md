@@ -2,12 +2,13 @@
 Occasionally, B2s need to store data but regular files are not enough. One of the little 
 known features of B2s is to create tables in the blackboard database on installation. 
 
-This tutorial makes the following Assumptions:
-  1. Have a blackboard instance available @ localhost:9876 (see BBDeveloperVMSetupTutorial for help to set this up)
+##Prerequisites
+* A running Blackboard Developer VM on [http://localhost:9876](http://localhost:9876). This was covered in the 
+[BBDeveloperVMSetupTutorial](BBDeveloperVMSetupTutorial.md)
 
-We will be building on my previous tutorial BasicMavenB2Tutorial. 
+We will be building on my previous tutorial [BasicMavenB2Tutorial](BasicMavenB2Tutorial).
 
-1. Download hello-maven-b2.git
+1. Download [hello-maven-b2.git](https://github.com/justinwrobel/hello-maven-b2)
    ```
       $ git clone https://github.com/justinwrobel/hello-maven-b2.git
       $ find . ! -path "*.git*" -type f -print
