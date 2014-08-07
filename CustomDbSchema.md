@@ -9,14 +9,15 @@ We will be building on my previous tutorial BasicMavenB2Tutorial.
 
 1. Download hello-maven-b2.git
    ```
-$ git clone https://github.com/justinwrobel/hello-maven-b2.git
-$ find . ! -path "*.git*" -type f -print
-./pom.xml
-./README.md
-./src/main/webapp/hello.jsp
-./src/main/webapp/WEB-INF/bb-manifest.xml
-./src/main/webapp/WEB-INF/web.xml
-```
+      $ git clone https://github.com/justinwrobel/hello-maven-b2.git
+      $ find . ! -path "*.git*" -type f -print
+      ./pom.xml
+      ./README.md
+      ./src/main/webapp/hello.jsp
+      ./src/main/webapp/WEB-INF/bb-manifest.xml
+      ./src/main/webapp/WEB-INF/web.xml
+   ```
+   
 2. Get ${plugin.name} from plugin.name in the bb-manifest.xml. 
 3. Insert the following to src/main/webapp/WEB-INF/${plugin.name}/schema.xml: 
    ```
