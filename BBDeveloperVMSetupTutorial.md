@@ -10,10 +10,14 @@
 	* Download [Starting Block][StartingBlock]
 1. Install [VirtualBox & Vagrant][DeveloperVMInstall]
 1. Launch Developer VM
+
 		vagrant up
 		vagrant ssh
+
 1. Start blackboard
+
 		sudo /usr/local/blackboard/tools/admin/ServiceController.sh services.start
+
 1. Install StartingBlock
 
 Pat yourself on the back! You should have a fully functioning Blackboard Instance! 
