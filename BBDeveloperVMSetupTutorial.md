@@ -8,17 +8,14 @@
 	* Download [Vagrant](http://downloads.vagrantup.com/tags/v1.2.2)
 	* Download [VirtualBox](https://www.virtualbox.org/wiki/Download_Old_Builds_4_2)
 	* Download [Starting Block][StartingBlock]
-1. Install Eclipse
 1. Install [VirtualBox & Vagrant][DeveloperVMInstall]
 1. Launch Developer VM
-	
 		vagrant up
 		vagrant ssh
-	
 1. Start blackboard
-	
 		sudo /usr/local/blackboard/tools/admin/ServiceController.sh services.start
+1. Install StartingBlock
 
-Pat yourself on the back! You've should have a fully functioning Blackboard Instance! 
+Pat yourself on the back! You should have a fully functioning Blackboard Instance! 
 But if you want to make this VM even easier to use there are some tweaks available in [DeveloperVmTweaks](DeveloperVmTweaks.md)
 
