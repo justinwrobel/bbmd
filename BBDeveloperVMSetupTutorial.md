@@ -2,6 +2,8 @@
 [StartingBlock]: http://behind.blackboard.com/downloads/details.aspx?d=1669
 [DeveloperVMInstall]: https://help.blackboard.com/en-us/Learn/9.1_SP_12_and_SP_13/Administrator/230_Developer_Resources/Developer_Virtual_Machine
 
+Please note: [better instructions may be found here](https://help.blackboard.com/en-us/Learn/9.1_SP_14/Administrator/230_Developer_Resources/Getting_Started%3A_Developer_Workstation#Optional_Downloads)
+
 1. Download all required files
 	* Download [Developer VM](https://behind.blackboard.com/System-Administrator/Learn/Downloads/download.aspx?d=1654) (e.g., devcon-sp14r145_public-license.box)
 	* Download [Eclipse](http://www.eclipse.org/downloads/) 
