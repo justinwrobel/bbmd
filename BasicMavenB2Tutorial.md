@@ -14,8 +14,8 @@ mavenized B2 will have the following files:
   Descriptor of your application [see explanation][webxml].
 * **src/main/webapp/WEB-INF/bb-manifest.xml** - This is a blackboard 
   specific file. It describes how your B2 is to be integrated into 
-  blackboard. Further details have been documented 
-  by [justplainwiley][justplainwiley]. 
+  blackboard. Further details have been documented in this
+  [bb-manifest.xml reference.][bbmanifestref]. 
 * **src/main/webapp/home.jsp** - just a simple a [jsp][jsp]. 
 
 
@@ -23,7 +23,7 @@ mavenized B2 will have the following files:
 [webxml]: http://stackoverflow.com/a/2412983/792789
 [jsp]: http://stackoverflow.com/questions/3216497/looking-for-a-good-tutorial-on-jsp-struts-2#3216552
 [jsptag]: http://stackoverflow.com/questions/1296235/jsp-tricks-to-make-templating-easier#3257426
-[justplainwiley]: http://eclipse.justplainwiley.com/pluginhelp/reference/bb-manifest-ref.html
+[bbmanifestref]: https://docs.alltheducks.com/blackboard/bb-manifest-ref.html
 
 ##Tutorial
 For those already familiar with B2 development [here is a zip archive of the completed project](https://github.com/justinwrobel/bbmd/raw/master/BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy) section.

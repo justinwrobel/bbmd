@@ -32,4 +32,4 @@ Below are images of the different content types with the content type !Custom co
 * file
 
 ##Sources/Inspiration
-* [bb-manifest.xml from wiley](http://eclipse.justplainwiley.com/pluginhelp/reference/bb-manifest-ref.html#content-handlers)
+* [bb-manifest.xml from All the Ducks](https://docs.alltheducks.com/blackboard/bb-manifest-ref.html#toc_14)
