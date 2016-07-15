@@ -24,6 +24,6 @@
 ```
 
 ## Sources & Links
- * http://eclipse.justplainwiley.com/pluginhelp/reference/bb-manifest-ref.html
+ * https://docs.alltheducks.com/blackboard/bb-manifest-ref.html
  * http://www.edugarage.com/download/attachments/58622224/bb-manifest-plugin.xsd 
  * http://www.edugarage.com/display/BBDN/Your+first+Building+Blocks+project+using+Eclipse
