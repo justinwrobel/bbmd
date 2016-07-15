@@ -42,3 +42,5 @@ We will be building on my previous tutorial [BasicMavenB2Tutorial](BasicMavenB2T
 4. Finally, run `mvn antrun:run`
 
 The new version hello-maven-b2 will be installed and the schema will be created if needed.
+
+[All the ducks](https://blog.alltheducks.com/post/introduction_to_blackboard_schema_xml/) has a much more thorough write up of all the neat things you can do with schema.xml
