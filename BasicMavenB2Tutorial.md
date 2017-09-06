@@ -1,9 +1,9 @@
-#Basic Maven B2 Tutorial 
-##Prerequisites
+# Basic Maven B2 Tutorial 
+## Prerequisites
 * A running Blackboard Developer VM on [http://localhost:9876](http://localhost:9876). This was covered in the 
 [BBDeveloperVMSetupTutorial](BBDeveloperVMSetupTutorial.md)
 
-##Introduction
+## Introduction
 This tutorial shows how to create and deploy a basic B2 to Blackboard. The most basic 
 mavenized B2 will have the following files:
 
@@ -25,10 +25,10 @@ mavenized B2 will have the following files:
 [jsptag]: http://stackoverflow.com/questions/1296235/jsp-tricks-to-make-templating-easier#3257426
 [bbmanifestref]: https://docs.alltheducks.com/blackboard/bb-manifest-ref.html
 
-##Tutorial
+## Tutorial
 For those already familiar with B2 development [here is a zip archive of the completed project](https://github.com/justinwrobel/bbmd/raw/master/BasicMavenB2Tutorial/hello-world-b2.zip). Just extract, import into eclipse and skip to the [Deploy!](#deploy) section.
 
-###Create new Maven Project in Eclipse 
+### Create new Maven Project in Eclipse 
 
 1. Navigate to **File** > **New** > **Other...** to create a new Maven project. ![1-eclipse-navigate.png](BasicMavenB2Tutorial/1-eclipse-navigate.png)
 2. Select **Maven Project** and then Click **Next** in the **Select a Wizard** dialog box ![2-eclipse-select-a-wizard.png](BasicMavenB2Tutorial/2-eclipse-select-a-wizard.png)
@@ -46,7 +46,7 @@ Maven should have created the following file structure and files:
 
 ![5-eclipse-file-structure.png](BasicMavenB2Tutorial/5-eclipse-file-structure.png)
 
-##Create a B2
+## Create a B2
 Start by adding the following to **src/main/webapp/hello.jsp**:
 
     <!DOCTYPE html>
@@ -122,7 +122,7 @@ Add the following to **src/main/webapp/WEB-INF/bb-manifest.xml**
 
 Congratulations! You've just created your first B2!  
 
-##Test build & Manually Deploy
+## Test build & Manually Deploy
 1. Right click **hello-world-b2** and then select **Run as...** > **install** 
    to Build the war file 
 1. Open a browser to localhost:9876
@@ -145,7 +145,7 @@ The manual deployment process is **over 9 steps** and it takes over a minute. **
 Why would we do that when Maven can simplify the entire process 
 down to one command and speed up deployment to just a few seconds.
 
-##Add the b2deploy-task to our build
+## Add the b2deploy-task to our build
 
 1. Add pluginRepositories to pom.xml for b2deploy-task
 	
@@ -196,7 +196,7 @@ down to one command and speed up deployment to just a few seconds.
 		...
 		</project>
 
-##Deploy!
+## Deploy!
 	
 1. Right click on the project and choose **Run As** > **Maven Build** 
 	
